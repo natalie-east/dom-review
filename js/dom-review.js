@@ -1,6 +1,9 @@
 "use strict";
 
 //TODO: Write a function that changes the text color of the <h1> when the <h1> is clicked
+$("h1").click(function(){
+    $(this).css('color', 'pink');
+})
 
 
 
@@ -10,6 +13,10 @@
 
 
 //TODO: Write a function that causes the runner div to move to the right side of the screen when the mouse moves over it
+$(".runner").hover(function(){
+    $(this).css('margin-left', "auto")
+})
+
 
 
 
@@ -29,7 +36,10 @@
 
 
 //TODO: Write a function that changes the font of all text to comic sans 5 seconds after the page loads
-
+$("body").ready(function(){
+    $(this).css('font-family', 'comic sans')
+    }
+)
 
 
 
@@ -40,7 +50,7 @@
 
 
 //TODO: Write a function that bolds the words in the paragraph element with the id of thundercats when the get hype button is pressed
-
+$("#thundercats")
 
 
 
