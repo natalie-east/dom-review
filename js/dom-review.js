@@ -50,8 +50,9 @@ $("body").ready(function(){
 
 
 //TODO: Write a function that bolds the words in the paragraph element with the id of thundercats when the get hype button is pressed
-$("#thundercats")
-
+$('#get-hype').click(function() {
+    $('#thundercats').css('font-weight', 'bold');
+});
 
 
 
